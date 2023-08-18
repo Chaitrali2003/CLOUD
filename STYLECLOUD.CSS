@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: aqua;
+    margin: 0;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    left: -0.1%;
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+.navbar div{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-btn{
+    border: 2px solid purple;
+    border-radius: 20px;
+    padding-block: 5px;
+    padding-inline: 30px;
+    background-color: purple;
+    color: white;
+}
+
+.login-btn:hover{
+    background-color: aqua;
+    color: black;
+    transition: all ease 0.2s;
+}
+
+.hero-section{
+    display : flex;
+    padding: 20px;
+}
+
+.batman img{
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+
+.first{
+    padding-top: 100px;
+}
